@@ -1,0 +1,64 @@
+/* CSS declarations for Login Screen go here */
+.login {
+    float: none !important;
+    margin: 0 auto !important;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+}
+
+.login-left {
+    border-right: 1px solid #e5e5e5;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.login-left::after {
+    content: 'Or';
+    position: absolute;
+    margin-left: 314px;
+    margin-top: -120px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.login-left > div {
+    margin-top: 20px !important;
+}
+
+.login-right {
+    padding-left: 20px;
+}
+
+.facebook-bg {
+    background-color: #355089 !important;
+}
+
+.twitter-bg {
+    background-color: #1DA1F2 !important;
+}
+
+.google-plus-bg {
+    background-color: #DB4437 !important;
+}
+
+.github-bg {
+    background-color: #333 !important;
+}
+
+.facebook {
+    color: #355089 !important;
+}
+
+.twitter {
+    color: #1DA1F2 !important;
+}
+
+.google-plus {
+    color: #DB4437 !important;
+}
+
+.github {
+    color: #333 !important;
+}

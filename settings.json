@@ -1,0 +1,19 @@
+{
+  "AWS_Bucket": "your aws bucket name",
+  "AWS_AccessKeyId": "your aws key id",
+  "AWS_SecretKey": "you aws secret key",
+  "AWS_Region": "your aws region",
+  "MAIL_URL": "smtp://your_email_address:password@smtp.domain.com:port",
+  "facebook_appId": "your facebook app id",
+  "facebook_secret": "your facebook app secret",
+  "twitter_consumerKey": "your twitter app consumer key",
+  "twitter_secret": "your twitter app secret",
+  "google_clientId": "your google app client id",
+  "google_secret": "your google app secret",
+  "github_clientId": "your github app client id",
+  "github_secret": "your github app secret",
+  "public" : {
+    "development": true,
+    "production": false
+  }
+}
